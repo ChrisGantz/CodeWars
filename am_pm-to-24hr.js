@@ -26,8 +26,8 @@ function timeConversion(s) {
 // console.log(timeConversion('12:00:00AM'))
 // console.log(timeConversion('04:59:59AM'))
 
+// Realised I did a lot of extra things up top so refactored a ...lot
 // refactor
-
 function timeConversion2(s) {
   // used to check for if its am or pm
   let AMorPM = s.slice(-2);
