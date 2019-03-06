@@ -1,3 +1,5 @@
+'use strict';
+
 function timeConversion(s) {
   /*
    * Write your code here.
@@ -39,7 +41,7 @@ function timeConversion2(s) {
     strArr[0] = "00";
   } else if (AMorPM === "PM") {
     // everything with PM can just be mod'd and added with 12 - the max will be 23
-    strArr[0] = (strArr[0] % 12) + 12
+    strArr[0] = (strArr[0] % 12) + 12;
   }
 
   return strArr.join(":");
